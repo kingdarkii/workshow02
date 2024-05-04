@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ระบบข้อสอบอย่างง่าย Simple Quiz</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    
+    <div class="quiz-container">
+        <h1>ข้อ1</h1>
+        <p id="question">วิทยาลัยเทคโนโลยีชัยภูมิบริหารธุรกิจอยู่ที่จังหวัดอะไร ?</p>
+        <button class="button" onclick="checkAnswer01('a')">A) ชัยภูมิ</button>
+        <button class="button" onclick="checkAnswer01('b')">B) นครราชสีมา</button>
+        <button class="button" onclick="checkAnswer01('c')">C) กรุงเทพฯ</button>
+        <button class="button" onclick="checkAnswer01('d')">D) สระบุรี</button>
+        <p id="result01"></p>
+    </div>
+
+    
+    <div class="quiz-container">
+        <h1>ข้อ2</h1>
+        <p id="question">ชื่อย่อของวิทยาลัยเทคโนโลยีชัยภูมิบริหารธุรกิจคือข้อใด ?</p>
+        <button class="button" onclick="checkAnswer02('a')">A) CTEC</button>
+        <button class="button" onclick="checkAnswer02('b')">B) C-BAC</button>
+        <button class="button" onclick="checkAnswer02('c')">C) D-DEK</button>
+        <button class="button" onclick="checkAnswer02('d')">D) GooGLE</button>
+        <p id="result02"></p>
+    </div>
+    
+    <div class="quiz-container">
+        <h1></h1>
+        <p id="show">คะแนนที่ได้</p>
+
+    </div>
+
+
+    <script src="index.js" charset="UTF-8"></script>
+</body>
+
+</html>
